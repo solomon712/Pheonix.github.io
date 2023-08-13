@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+</script>
+<link href="C:\Users\Asus\OneDrive\Desktop\PHEONIX\png-transparent-phoenix-logo-design-mark-phoenix-fire-thumbnail.png" rel="shortcut icon" type="image/x-icon" />
+<link href="C:\Users\Asus\OneDrive\Desktop\PHEONIX\png-transparent-phoenix-logo-design-mark-phoenix-fire-thumbnail.png" rel="apple-touch-icon" />
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HYCVQ3LY3K"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('set', 'developer_id.dZGVlNj', true);
+    gtag('config', 'G-HYCVQ3LY3K');
+</script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient( #0056b3, #ffffff);
+        }
+
+        .signin-container {
+            position: relative;
+            z-index: 1;
+            width: 300px;
+            height: 400px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .input-group {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .signin-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px; /* Adjust margin for the new button */
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .signin-button:hover {
+            background-color: #0056b3;
+        }
+
+        .google-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: transparent;
+            color: #007bff;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .google-button:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        .input-text {
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="signin-container">
+        <div class="logo">
+            <img src=C:\Users\Asus\OneDrive\Desktop\PHEONIX\PHEONIX.png alt="Logo">
+        </div>
+        <div class="input-group">
+            <p class="input-text">EMAIL</p>
+            <input type="email" placeholder="Email">
+        </div>
+        <button class="signin-button">Sign In</button>
+        <button class="google-button">Sign In with GOOGLE</button>
+    </div>
+</body>
+</html>
